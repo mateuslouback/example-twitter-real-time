@@ -10,11 +10,11 @@ The application is an example of Twitter registering real-time tweets in the Web
 ![](https://media.giphy.com/media/443HOhdusGEk5ieQmv/giphy.gif)
 
 
-# Back-end
+## Back-end
 
 Back-end part of the real-time Twitter sample application using **NodeJS**.
 
-## Create a bank and set up the project
+### Create a bank and set up the project
 Create a bank at (https://mlab.com/)
 
 In src / index.js set the bank on the line:
@@ -24,7 +24,7 @@ mongoose.connect('mongodb://<dbuser>:<dbpassword>@<link bank>', {
 });
 ```
 
-## Package installation
+### Package installation
 
 Install Yarn:
 Open (https://yarnpkg.com/).
@@ -34,18 +34,18 @@ Run terminal code
 $ yarn install
 ```
 
-## Run server node
+### Run server node
 
 Run terminal code
 ```
 $ yarn start
 ```
 
-# Front-end
+## Front-end
 
 Front-end part of the real-time Twitter sample application using **React**.
 
-## Package installation
+### Package installation
 
 Install Yarn:
 Open (https://yarnpkg.com/).
@@ -55,17 +55,17 @@ Run terminal code:
 $ yarn install
 ```
 
-## Run app web
+### Run app web
 Run terminal code:
 ```
 $ yarn start
 ```
 
-# Mobile
+## Mobile
 
 Mobile part of the real-time Twitter sample application using **React Native**.
 
-## Package installation
+### Package installation
 
 Install Yarn:
 Open (https://yarnpkg.com/).
@@ -75,14 +75,14 @@ Run terminal code:
 $ yarn install
 ```
 
-## Run app in IOS
+### Run app in IOS
 
 Run terminal code:
 ```
 $ react-native run-ios
 ```
 
-## Run app in Android
+### Run app in Android
 
 Run terminal code:
 ```
